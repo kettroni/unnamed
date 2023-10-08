@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "esbuild": "0.19.3"
+  },
+  "scripts": {
+    "dev": "spago build && ./node_modules/.bin/esbuild main.js --bundle --outfile=out.js"
+  }
+}
